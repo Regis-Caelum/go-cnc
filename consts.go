@@ -2,6 +2,7 @@ package cnc
 
 const (
 	headerEndpoint           = "/header"
+	headEndpoint             = "/head"
 	balanceEndpoint          = "/balance"
 	submitTxEndpoint         = "/submit_tx"
 	submitPFDEndpoint        = "/submit_pfd"

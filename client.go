@@ -33,6 +33,10 @@ func (c *Client) Header(ctx context.Context, height uint64) /* Header */ error {
 	_ = headerPath()
 	return errors.New("method Header not implemented")
 }
+func (c *Client) Head(ctx context.Context) /* Head */ error {
+
+	return errors.New("method Head not implemented")
+}
 
 func (c *Client) Balance(ctx context.Context) error {
 	var result balanceResponse
